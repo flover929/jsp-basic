@@ -31,6 +31,7 @@
                 <option value="red">빨강색</option>
                 <option value="blue">파랑색</option>
                 <option value="yellow">노랑색</option>
+                <option value="Orange">주황</option>
             </select>
             <button type="submit">변경</button>
         </form>
