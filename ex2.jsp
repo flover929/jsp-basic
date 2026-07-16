@@ -41,6 +41,15 @@
         if(danText != null) {
             int dan = Integer.parseInt(danText);
         %>
+        <ul>
+            <%
+            for(int i = 1; i<= 9; i++) {
+            %>
+            <li><%=dan%> x <%=i%> = <%=(dan*i)%></li>
+            <%
+            }
+            %>
+        </ul>
         <%=dan%>
         <%
         }
