@@ -15,16 +15,17 @@
 <a href="ex4.jsp">예제4</a>&nbsp;&nbsp;
 <a href="ex5.jsp">예제5</a>&nbsp;&nbsp;
 </div>
-<%
-    request.setCharacterEncoding("UTF-8");
-    String id = request.getParameter("id");
-    String pass = request.getParameter("pass");
+<% 
+String username = "sungil";
+String password_1 = "12345";
+String password_2 = "67890";
+
 %>
-아이디: <%= id %>
+아이디: <%= username %>
 <br>
 암호 체크: 
 <%
-if( pass != null && pass.equals("1234") ) {
+if(password_1.equals(password_2)) {
 %>
 암호가 맞습니다.
 <%
