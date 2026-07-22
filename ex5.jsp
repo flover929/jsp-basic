@@ -26,7 +26,7 @@ int item_2_count = 5;
 <h1>쇼핑몰 장바구니</h1>
 <%
 int item_1_total = 0;
-for( int i =    ) {
+for( int i = <%=item   ) {
 코드를 완성하시오
 %>
 <%=item_1_name%>: <%=i%>개  <%=item_1_total%>원
